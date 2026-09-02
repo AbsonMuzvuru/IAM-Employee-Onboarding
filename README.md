@@ -40,7 +40,7 @@ identity and employment information.
 The employee in this scenario is Tafadzwa Moyo, a Financial Analyst
 joining the Finance department.
 
-![HR Intake](screenshots/01-hr-intake-tafadzwa.png)
+![HR Intake](screenshots/001-hr-intake-tafadzwa.png)
 
 </> Markdown
 
@@ -95,6 +95,7 @@ PowerShell was used to verify the provisioned Active Directory account.
 ```powershell
 Get-ADUser tmoyo -Properties EmployeeID,Department,Title,Enabled |
 Select-Object SamAccountName,Name,EmployeeID,Department,Title,Enabled
+```
 
 </> Markdown
 
