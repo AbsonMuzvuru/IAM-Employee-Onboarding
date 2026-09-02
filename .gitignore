@@ -1,0 +1,17 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Credentials / secrets
+*.key
+*.pem
+.env
+secrets.txt
+credentials.txt
