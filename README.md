@@ -1,4 +1,4 @@
-\ IAM Employee Onboarding Workflow
+IAM Employee Onboarding Workflow
 
 
 
@@ -6,7 +6,7 @@ Hands-on Identity and Access Management lab using ServiceNow, Active Directory, 
 
 
 
-\ Project Overview
+Project Overview
 
 
 
@@ -18,43 +18,43 @@ The workflow includes:
 
 
 
-\- HR onboarding intake
+HR onboarding intake
 
-\- ServiceNow catalog request
+ServiceNow catalog request
 
-\- IAM fulfillment task
+IAM fulfillment task
 
-\- Active Directory account creation
+Active Directory account creation
 
-\- Group-based access assignment
+Group-based access assignment
 
-\- PowerShell verification
+PowerShell verification
 
-\- Ticket documentation and closure
-
-
-
-\ Technologies Used
+Ticket documentation and closure
 
 
 
-\- ServiceNow PDI
-
-\- Windows Server
-
-\- Active Directory Domain Services
-
-\- Windows 11
-
-\- PowerShell
-
-\- Excel
-
-\- VirtualBox
+Technologies Used
 
 
 
-\ Employee Scenario
+ServiceNow PDI
+
+Windows Server
+
+Active Directory Domain Services
+
+Windows 11
+
+PowerShell
+
+Excel
+
+VirtualBox
+
+
+
+Employee Scenario
 
 
 
@@ -62,17 +62,17 @@ The lab provisions a new Finance employee:
 
 
 
-\- Name: Tafadzwa Moyo
+Name: Tafadzwa Moyo
 
-\- Employee ID: 1002
+Employee ID: 1002
 
-\- Department: Finance
+Department: Finance
 
-\- Job Title: Financial Analyst
+Job Title: Financial Analyst
 
-\- AD Username: `tmoyo`
+AD Username: `tmoyo`
 
-\- Security Group: `Finance-Users`
+Security Group: `Finance-Users`
 
-\- Privileged Access: None
+Privileged Access: None
 
