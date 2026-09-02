@@ -1,16 +1,31 @@
-\# IAM Employee Onboarding Workflow
+</> Markdown
 
+# IAM Employee Onboarding Workflow
 
+## Project Overview
 
-Hands-on Identity and Access Management lab using ServiceNow, Active Directory, PowerShell, and group-based access control.
+This project simulates a real-world Identity and Access Management (IAM) employee onboarding workflow using ServiceNow and Microsoft Active Directory.
 
+The lab follows a new employee from the initial HR onboarding record through access request submission, IAM review, Active Directory account creation, group-based access assignment, verification, documentation, and ticket closure.
 
+The project was designed to demonstrate hands-on experience with identity lifecycle management and common IAM analyst responsibilities rather than simply creating user accounts manually.
 
-\## Project Overview
+## Workflow
 
+HR Intake → ServiceNow Request → IAM Review → Active Directory Provisioning → Group-Based Access → PowerShell Verification → Ticket Closure
 
+### Key IAM Concepts Demonstrated
 
-This project simulates a new employee onboarding workflow from HR intake through IAM provisioning and verification.
+- Identity lifecycle management (Joiner process)
+- Active Directory user provisioning
+- ServiceNow request and fulfillment workflows
+- Role/group-based access assignment
+- Principle of least privilege
+- Separation of duties between HR and IAM
+- Identity and access verification
+- PowerShell administration
+- IAM ticket documentation and audit trail
+
 
 </> Markdown
 
@@ -48,6 +63,7 @@ Management team for fulfillment.
 The IAM Analyst reviewed the request before provisioning access.
 
 ![IAM Task Assignment](screenshots/06-iam-task-assigned.png)
+![IAM Acknowledgement](screenshots/072-acknoledgement.png)
 
 </> Markdown
 
@@ -80,7 +96,7 @@ PowerShell was used to verify the provisioned Active Directory account.
 Get-ADUser tmoyo -Properties EmployeeID,Department,Title,Enabled |
 Select-Object SamAccountName,Name,EmployeeID,Department,Title,Enabled
 
-```markdown
+</> Markdown
 
 ## 7. Ticket Closure
 
@@ -90,47 +106,40 @@ Closed Complete.
 
 ![Completed IAM Task](screenshots/15-sctask-closed-complete.png)
 
+## Technologies Used
+
+- ServiceNow PDI
+
+- Windows Server
+
+- Active Directory Domain Services
+
+- Windows 11
+
+- PowerShell
+
+- Excel
+
+- VirtualBox
 
 
-\## Technologies Used
-
-
-
-\- ServiceNow PDI
-
-\- Windows Server
-
-\- Active Directory Domain Services
-
-\- Windows 11
-
-\- PowerShell
-
-\- Excel
-
-\- VirtualBox
-
-
-
-\## Employee Scenario
-
+## Employee Scenario
 
 
 The lab provisions a new Finance employee:
 
 
+- **Name:** Tafadzwa Moyo
 
-\- Name: Tafadzwa Moyo
+- **Employee ID:** 1002
 
-\- Employee ID: 1002
+- **Department:** Finance
 
-\- Department: Finance
+- **Job Title:** Financial Analyst
 
-\- Job Title: Financial Analyst
+- **AD Username:** `tmoyo`
 
-\- AD Username: `tmoyo`
+- **Security Group:** `Finance-Users`
 
-\- Security Group: `Finance-Users`
-
-\- Privileged Access: None
+- **Privileged Access:** None
 
