@@ -1,4 +1,4 @@
-\# IAM Employee Onboarding Workflow
+\ IAM Employee Onboarding Workflow
 
 
 
@@ -6,7 +6,7 @@ Hands-on Identity and Access Management lab using ServiceNow, Active Directory, 
 
 
 
-\## Project Overview
+\ Project Overview
 
 
 
@@ -34,7 +34,7 @@ The workflow includes:
 
 
 
-\## Technologies Used
+\ Technologies Used
 
 
 
@@ -54,7 +54,7 @@ The workflow includes:
 
 
 
-\## Employee Scenario
+\ Employee Scenario
 
 
 
