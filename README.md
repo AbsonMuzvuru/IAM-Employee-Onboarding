@@ -1,4 +1,3 @@
-</> Markdown
 
 # IAM Employee Onboarding Workflow
 
@@ -268,13 +267,12 @@ The project demonstrates that IAM onboarding involves more than creating a user 
 
 Potential extensions to this lab include:
 
-- Automating Active Directory provisioning with PowerShell
-- Building ServiceNow approval workflows
-- Automating ServiceNow Catalog Task creation
-- Adding Microsoft Entra ID
-- Implementing MFA and Conditional Access
 - Building employee transfer (Mover) workflows
 - Building employee termination (Leaver) workflows
+- Automating Active Directory provisioning with PowerShell
+- Implementing MFA and Conditional Access
+- Automating ServiceNow Catalog Task creation
+- Adding Microsoft Entra ID
 - Performing periodic access reviews
 - Implementing role-based access control (RBAC)
 
